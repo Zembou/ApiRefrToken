@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\controllers\\api\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\controllers\\api\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\class\\tokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\class\\tokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\class\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\class\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\controllers\\api\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\controllers\\api\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\apirefr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\apirefr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\migrations\\20240329083004_initialuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\migrations\\20240329083004_initialuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\class\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\class\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\class\\tokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\class\\tokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\migrations\\20240329083004_initialuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|solutionrelative:apirefr\\migrations\\20240329083004_initialuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\context\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,76 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\TokenController.cs",
-              "RelativeDocumentMoniker": "ApiRefr\\Controllers\\Api\\TokenController.cs",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\TokenController.cs",
-              "RelativeToolTip": "ApiRefr\\Controllers\\Api\\TokenController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAYwDoAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T09:05:23.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TokenApiModel.cs",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\TokenApiModel.cs",
-              "RelativeDocumentMoniker": "ApiRefr\\Class\\TokenApiModel.cs",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\TokenApiModel.cs",
-              "RelativeToolTip": "ApiRefr\\Class\\TokenApiModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T09:04:44.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\AuthController.cs",
-              "RelativeDocumentMoniker": "ApiRefr\\Controllers\\Api\\AuthController.cs",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\AuthController.cs",
-              "RelativeToolTip": "ApiRefr\\Controllers\\Api\\AuthController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAmwDcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T09:03:57.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Interface\\ITokenService.cs",
-              "RelativeDocumentMoniker": "ApiRefr\\Interface\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Interface\\ITokenService.cs",
-              "RelativeToolTip": "ApiRefr\\Interface\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:35:17.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "ApiRefr\\Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Service\\TokenService.cs",
-              "RelativeToolTip": "ApiRefr\\Service\\TokenService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAawDMAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:36:39.881Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -139,46 +82,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthenticatedResponse.cs",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\AuthenticatedResponse.cs",
-              "RelativeDocumentMoniker": "ApiRefr\\Class\\AuthenticatedResponse.cs",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\AuthenticatedResponse.cs",
-              "RelativeToolTip": "ApiRefr\\Class\\AuthenticatedResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "DocumentIndex": 3,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\TokenController.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Controllers\\Api\\TokenController.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\TokenController.cs",
+              "RelativeToolTip": "ApiRefr\\Controllers\\Api\\TokenController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwEoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:46:01.66Z",
+              "WhenOpened": "2024-03-29T09:05:23.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Program.cs",
               "RelativeDocumentMoniker": "ApiRefr\\Program.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Program.cs",
               "RelativeToolTip": "ApiRefr\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAA9AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T08:29:01.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240329083004_InitialUserData.cs",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
-              "RelativeDocumentMoniker": "ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
-              "RelativeToolTip": "ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:30:05.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ApiRefr.csproj",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\ApiRefr.csproj",
               "RelativeDocumentMoniker": "ApiRefr\\ApiRefr.csproj",
@@ -191,7 +121,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\WeatherForecast.cs",
+              "RelativeToolTip": "ApiRefr\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T10:11:23.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ApiRefr\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T10:11:28.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\appsettings.json",
               "RelativeDocumentMoniker": "ApiRefr\\appsettings.json",
@@ -199,11 +155,90 @@
               "RelativeToolTip": "ApiRefr\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-29T08:27:28.377Z"
+              "WhenOpened": "2024-03-29T08:27:28.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Service\\TokenService.cs",
+              "RelativeToolTip": "ApiRefr\\Service\\TokenService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwA0AAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:36:39.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\AuthController.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Controllers\\Api\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Controllers\\Api\\AuthController.cs",
+              "RelativeToolTip": "ApiRefr\\Controllers\\Api\\AuthController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwDcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T09:03:57.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthenticatedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\AuthenticatedResponse.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Class\\AuthenticatedResponse.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\AuthenticatedResponse.cs",
+              "RelativeToolTip": "ApiRefr\\Class\\AuthenticatedResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:46:01.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Interface\\ITokenService.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Interface\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Interface\\ITokenService.cs",
+              "RelativeToolTip": "ApiRefr\\Interface\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:35:17.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenApiModel.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\TokenApiModel.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Class\\TokenApiModel.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\TokenApiModel.cs",
+              "RelativeToolTip": "ApiRefr\\Class\\TokenApiModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T09:04:44.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240329083004_InitialUserData.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
+              "RelativeDocumentMoniker": "ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
+              "RelativeToolTip": "ApiRefr\\Migrations\\20240329083004_InitialUserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:30:05.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UserContext.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Context\\UserContext.cs",
               "RelativeDocumentMoniker": "ApiRefr\\Context\\UserContext.cs",
@@ -211,11 +246,12 @@
               "RelativeToolTip": "ApiRefr\\Context\\UserContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:26:19.04Z"
+              "WhenOpened": "2024-03-29T08:26:19.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "ApiRefr\\Models\\LoginModel.cs",
@@ -223,7 +259,8 @@
               "RelativeToolTip": "ApiRefr\\Models\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:25:35.113Z"
+              "WhenOpened": "2024-03-29T08:25:35.113Z",
+              "EditorCaption": ""
             }
           ]
         }
