@@ -2,6 +2,7 @@
 using ApiRefr.Context;
 using ApiRefr.Interface;
 using ApiRefr.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -10,6 +11,7 @@ namespace ApiRefr.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class AuthController : ControllerBase
     {
         private readonly UserContext _userContext;
@@ -49,7 +51,7 @@ namespace ApiRefr.Controllers.Api
 
             return Ok(new AuthenticatedResponse
             {
-                Token = accessToken,
+                AccessToken = accessToken,
                 RefreshToken = refreshToken
             });
         }

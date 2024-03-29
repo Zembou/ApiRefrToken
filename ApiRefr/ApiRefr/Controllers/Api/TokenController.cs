@@ -1,6 +1,7 @@
 ﻿using ApiRefr.Class;
 using ApiRefr.Context;
 using ApiRefr.Interface;
+using Azure.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -46,17 +47,17 @@ namespace ApiRefr.Controllers.Api
 
             return Ok(new AuthenticatedResponse()
             {
-                Token = newAccessToken,
+                AccessToken = newAccessToken,
                 RefreshToken = newRefreshToken
             });
         }
 
         [HttpPost, Authorize]
         [Route("revoke")]
-        public IActionResult Revoke()
+        public IActionResult Revoke(TokenApiModel tokenApiModel)
         {
-            var username = User.Identity.Name;
-
+            var principal = _tokenService.GetPrincipalFromExpiredToken(tokenApiModel.AccessToken);
+            var username = principal.Identity.Name; //this is mapped to the Name claim by default
             var user = _userContext.LoginModels.SingleOrDefault(u => u.UserName == username);
             if (user == null) return BadRequest();
 
