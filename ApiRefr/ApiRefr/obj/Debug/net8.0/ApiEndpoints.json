@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "ApiRefr.Controllers.Api.TokenController",
+    "Method": "CheckTokenTime",
+    "RelativePath": "api/Token/checkTokenTime",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiRefr.Controllers.Api.TokenController",
     "Method": "Refresh",
     "RelativePath": "api/Token/refresh",
     "HttpMethod": "POST",

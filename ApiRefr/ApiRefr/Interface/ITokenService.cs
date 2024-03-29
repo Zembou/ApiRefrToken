@@ -7,5 +7,6 @@ namespace ApiRefr.Interface
         string GenerateAccessToken(IEnumerable<Claim> claims);
         string GenerateRefreshToken();
         ClaimsPrincipal GetPrincipalFromExpiredToken(string token);
+        bool IsTokenExpired(string token);
     }
 }

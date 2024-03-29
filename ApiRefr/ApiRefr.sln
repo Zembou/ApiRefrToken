@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRefr", "ApiRefr\ApiRefr.csproj", "{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRefr", "ApiRefr\ApiRefr.csproj", "{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{6D5A820E-C646-4D19-96C1-5ED8DA721054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5A820E-C646-4D19-96C1-5ED8DA721054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5A820E-C646-4D19-96C1-5ED8DA721054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5A820E-C646-4D19-96C1-5ED8DA721054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5A820E-C646-4D19-96C1-5ED8DA721054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -67,5 +67,12 @@ namespace ApiRefr.Controllers.Api
 
             return NoContent();
         }
+
+        [HttpPost]
+        [Route("checkTokenTime")]
+        public IActionResult CheckTokenTime(string token)
+        {
+            return Ok(_tokenService.IsTokenExpired(token));
+        }
     }
 }

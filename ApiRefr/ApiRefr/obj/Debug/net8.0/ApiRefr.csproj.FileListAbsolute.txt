@@ -142,3 +142,4 @@ C:\Users\vince\Documents\VDE\ApiRefr\ApiRefr\ApiRefr\obj\Debug\net8.0\refint\Api
 C:\Users\vince\Documents\VDE\ApiRefr\ApiRefr\ApiRefr\obj\Debug\net8.0\ApiRefr.pdb
 C:\Users\vince\Documents\VDE\ApiRefr\ApiRefr\ApiRefr\obj\Debug\net8.0\ApiRefr.genruntimeconfig.cache
 C:\Users\vince\Documents\VDE\ApiRefr\ApiRefr\ApiRefr\obj\Debug\net8.0\ref\ApiRefr.dll
+C:\Users\vince\Documents\VDE\ApiRefr\ApiRefr\ApiRefr\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

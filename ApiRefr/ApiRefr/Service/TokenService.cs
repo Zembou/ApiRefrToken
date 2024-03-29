@@ -23,6 +23,7 @@ namespace ApiRefr.Service
             );
 
             var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
+            IsTokenExpired(tokenString);
             return tokenString;
         }
 
@@ -55,6 +56,24 @@ namespace ApiRefr.Service
                 throw new SecurityTokenException("Invalid token");
 
             return principal;
+        }
+
+        public bool IsTokenExpired(string token)
+        {
+            // Read the token
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var tokenInJwt = tokenHandler.ReadJwtToken(token);
+
+            // Read the exp date
+            var tokenExp = tokenInJwt.Claims.First(claim => claim.Type.Equals("exp")).Value;
+            var ticks = long.Parse(tokenExp);
+            var tokenDate = DateTimeOffset.FromUnixTimeSeconds(ticks).UtcDateTime;
+
+            // Check if token is still valid
+            var now = DateTime.Now.ToUniversalTime();
+            var valid = tokenDate >= now;
+
+            return valid;
         }
     }
 }
