@@ -1,3 +1,4 @@
+using ApiRefr;
 using ApiRefr.Class;
 using ApiRefr.Models;
 using Client.Models;
@@ -38,16 +39,17 @@ namespace Client.Controllers
             return RedirectToAction("WeatherForecast");
         }
 
-        public IActionResult WeatherForecast()
+        public async Task<IActionResult> WeatherForecast()
         {
             TokenApiModel token = new TokenApiModel()
             {
                 AccessToken = Request.Cookies["AccessToken"],
                 RefreshToken = Request.Cookies["RefreshToken"]
             };
-            var model = _callAuthApi.Forecast(token);
+            IEnumerable<WeatherForecast> model = await _callAuthApi.Forecast(token);
             Console.WriteLine(model);
             return View(model);
+            //return View(model);
         }
 
         public IActionResult Privacy()

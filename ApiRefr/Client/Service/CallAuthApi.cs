@@ -54,14 +54,14 @@ namespace Client.Service
             
         }
 
-        public async Task<IEnumerator<WeatherForecast>> Forecast(TokenApiModel token)
+        public async Task<IEnumerable<WeatherForecast>> Forecast(TokenApiModel token)
         {
             HttpClient client = new HttpClient();
 
             var accessToken = token.AccessToken;
             var httpRequestMessage = new HttpRequestMessage(
             HttpMethod.Get,
-            "https://localhost:7099/api/Auth/Login")
+            "https://localhost:7099/WeatherForecast")
             {
                 Headers =
                 {
@@ -73,11 +73,14 @@ namespace Client.Service
             var response = await client.SendAsync(httpRequestMessage);
 
             //var value = response.Content;
-            var value = await response.Content.ReadFromJsonAsync<IEnumerator<WeatherForecast>>();
+            Console.WriteLine(response.Content);
+            Console.WriteLine(await response.Content.ReadAsStringAsync());
+
+            var value = await response.Content.ReadFromJsonAsync<IEnumerable<WeatherForecast>>();
             Console.WriteLine(value);
             var cleanValue = JsonConvert.SerializeObject(value);
             Console.WriteLine(cleanValue);
-            var objectValue = JsonConvert.DeserializeObject<IEnumerator<WeatherForecast>>(cleanValue);
+            var objectValue = JsonConvert.DeserializeObject<IEnumerable<WeatherForecast>>(cleanValue);
             Console.WriteLine(objectValue);
 
             return objectValue;

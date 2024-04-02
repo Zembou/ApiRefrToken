@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\client\\service\\callauthapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|solutionrelative:client\\service\\callauthapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|solutionrelative:client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\client\\service\\callauthapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|solutionrelative:client\\service\\callauthapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\client\\views\\home\\weatherforecast.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|solutionrelative:client\\views\\home\\weatherforecast.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\class\\tokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\client\\views\\home\\weatherforecast.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D5A820E-C646-4D19-96C1-5ED8DA721054}|Client\\Client.csproj|solutionrelative:client\\views\\home\\weatherforecast.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3094C04D-6DBA-46E9-BBF7-7AEBFA2DCC4A}|ApiRefr\\ApiRefr.csproj|c:\\users\\vince\\documents\\vde\\apirefr\\apirefr\\apirefr\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,13 +98,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CallAuthApi.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Service\\CallAuthApi.cs",
               "RelativeDocumentMoniker": "Client\\Service\\CallAuthApi.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Service\\CallAuthApi.cs",
               "RelativeToolTip": "Client\\Service\\CallAuthApi.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAuwFEAAAAAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwD8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T12:15:01.276Z",
               "EditorCaption": ""
@@ -124,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Client\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Client\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwDAAAAAjAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwDIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T12:04:06.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TokenApiModel.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\Class\\TokenApiModel.cs",
               "RelativeDocumentMoniker": "ApiRefr\\Class\\TokenApiModel.cs",
@@ -163,7 +163,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "WeatherForecast.cshtml",
+              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Views\\Home\\WeatherForecast.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Home\\WeatherForecast.cshtml",
+              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Views\\Home\\WeatherForecast.cshtml",
+              "RelativeToolTip": "Client\\Views\\Home\\WeatherForecast.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T15:31:45.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\ApiRefr\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ApiRefr\\WeatherForecast.cs",
@@ -176,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
@@ -185,18 +198,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T12:16:38.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecast.cshtml",
-              "DocumentMoniker": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Views\\Home\\WeatherForecast.cshtml",
-              "RelativeDocumentMoniker": "Client\\Views\\Home\\WeatherForecast.cshtml",
-              "ToolTip": "C:\\Users\\vince\\Documents\\VDE\\ApiRefr\\ApiRefr\\Client\\Views\\Home\\WeatherForecast.cshtml",
-              "RelativeToolTip": "Client\\Views\\Home\\WeatherForecast.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T15:31:45.697Z"
             },
             {
               "$type": "Document",
