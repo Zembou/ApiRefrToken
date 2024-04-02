@@ -1,3 +1,4 @@
+using ApiRefr.Class;
 using ApiRefr.Models;
 using Client.Models;
 using Client.Service;
@@ -11,10 +12,12 @@ namespace Client.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private CallAuthApi _callAuthApi;
+        private IHttpContextAccessor _httpContextAccessor;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IHttpContextAccessor httpContextAccessor)
         {
             _logger = logger;
+            _httpContextAccessor = httpContextAccessor;
             _callAuthApi = new CallAuthApi();
         }
 
@@ -27,10 +30,24 @@ namespace Client.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Index(LoginModel model)
+        public async Task<IActionResult> Index(LoginModel model)
         {
-            _callAuthApi.Auth(model);
-            return View();
+            TokenApiModel token = await _callAuthApi.Auth(model);
+            Response.Cookies.Append("AccessToken", token.AccessToken);
+            Response.Cookies.Append("RefreshToken", token.RefreshToken);
+            return RedirectToAction("WeatherForecast");
+        }
+
+        public IActionResult WeatherForecast()
+        {
+            TokenApiModel token = new TokenApiModel()
+            {
+                AccessToken = Request.Cookies["AccessToken"],
+                RefreshToken = Request.Cookies["RefreshToken"]
+            };
+            var model = _callAuthApi.Forecast(token);
+            Console.WriteLine(model);
+            return View(model);
         }
 
         public IActionResult Privacy()
