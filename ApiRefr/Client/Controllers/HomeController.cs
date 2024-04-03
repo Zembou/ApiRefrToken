@@ -5,6 +5,7 @@ using Client.Models;
 using Client.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using System.Diagnostics;
 
 namespace Client.Controllers
@@ -14,12 +15,13 @@ namespace Client.Controllers
         private readonly ILogger<HomeController> _logger;
         private CallAuthApi _callAuthApi;
         private IHttpContextAccessor _httpContextAccessor;
+        private TokenApiModel tokens;
 
         public HomeController(ILogger<HomeController> logger, IHttpContextAccessor httpContextAccessor)
         {
             _logger = logger;
             _httpContextAccessor = httpContextAccessor;
-            _callAuthApi = new CallAuthApi();
+            _callAuthApi = new CallAuthApi(httpContextAccessor);
         }
 
         [AllowAnonymous]
@@ -34,22 +36,46 @@ namespace Client.Controllers
         public async Task<IActionResult> Index(LoginModel model)
         {
             TokenApiModel token = await _callAuthApi.Auth(model);
-            Response.Cookies.Append("AccessToken", token.AccessToken);
-            Response.Cookies.Append("RefreshToken", token.RefreshToken);
-            return RedirectToAction("WeatherForecast");
+
+            if (token == null || token.AccessToken == "")
+            {
+                return View();
+            } else
+            {
+                CookieOptions options = new CookieOptions();
+                options.IsEssential = true;
+                options.HttpOnly = true;
+                options.Secure = true;
+                Response.Cookies.Append("AccessToken", token.AccessToken, options);
+                Response.Cookies.Append("RefreshToken", token.RefreshToken, options);
+                return RedirectToAction("WeatherForecast");
+            }
+
+            
         }
 
         public async Task<IActionResult> WeatherForecast()
         {
-            TokenApiModel token = new TokenApiModel()
+            TokenApiModel token = await _callAuthApi.ValidateToken(HttpContext);
+            CookieOptions options = new CookieOptions();
+            options.IsEssential = true;
+            options.HttpOnly = true;
+            options.Secure = true;
+            //options.SameSite = SameSiteMode.None;
+            
+            Response.Cookies.Append("AccessToken", token.AccessToken, options);
+            Response.Cookies.Append("RefreshToken", token.RefreshToken, options);
+            var model = await _callAuthApi.Forecast(token);
+
+            if (model != null)
             {
-                AccessToken = Request.Cookies["AccessToken"],
-                RefreshToken = Request.Cookies["RefreshToken"]
-            };
-            IEnumerable<WeatherForecast> model = await _callAuthApi.Forecast(token);
-            Console.WriteLine(model);
-            return View(model);
-            //return View(model);
+                return View(model);
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
+
         }
 
         public IActionResult Privacy()
