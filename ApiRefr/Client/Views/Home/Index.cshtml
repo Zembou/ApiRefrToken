@@ -1,0 +1,20 @@
+﻿@using ApiRefr.Models
+@{
+    ViewData["Title"] = "Home Page";
+    var display = new LoginModel();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<form method="post">
+    <label for="UserName"></label>
+    <input type="text" name="UserName" />
+
+    <label for="Password"></label>
+    <input type="text" name="Password" />
+
+    <input type="submit" name="submit" />
+</form>

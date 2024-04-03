@@ -18,12 +18,12 @@ namespace ApiRefr.Service
                 issuer: "https://localhost:5001",
                 audience: "https://localhost:5001",
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(5),
+                expires: DateTime.Now.AddMinutes(1),
                 signingCredentials: signinCredentials
             );
 
             var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
-            IsTokenExpired(tokenString);
+
             return tokenString;
         }
 
@@ -58,7 +58,7 @@ namespace ApiRefr.Service
             return principal;
         }
 
-        public bool IsTokenExpired(string token)
+        public bool IsTokenValid(string token)
         {
             // Read the token
             var tokenHandler = new JwtSecurityTokenHandler();

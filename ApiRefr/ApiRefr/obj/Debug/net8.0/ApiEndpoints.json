@@ -26,7 +26,7 @@
       {
         "Name": "token",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

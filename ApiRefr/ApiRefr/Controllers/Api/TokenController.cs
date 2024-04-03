@@ -70,9 +70,9 @@ namespace ApiRefr.Controllers.Api
 
         [HttpPost]
         [Route("checkTokenTime")]
-        public IActionResult CheckTokenTime(string token)
+        public IActionResult CheckTokenTime([FromBody] string token)
         {
-            return Ok(_tokenService.IsTokenExpired(token));
+            return Ok(_tokenService.IsTokenValid(token));
         }
     }
 }
