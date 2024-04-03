@@ -23,7 +23,7 @@ namespace ApiRefr.Service
             );
 
             var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
-            IsTokenExpired(tokenString);
+
             return tokenString;
         }
 
